@@ -1,0 +1,30 @@
+{
+  "name": "merchant_service",
+  "version": "1.0.0",
+  "description": "Mini project dibimbing BE 11",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/alvianistiqlalhanafi/merchant-service.git"
+  },
+  "keywords": [
+    "merchant-service",
+    "mini",
+    "project"
+  ],
+  "author": "Alvian Istiqlal Hanafi",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/alvianistiqlalhanafi/merchant-service/issues"
+  },
+  "homepage": "https://github.com/alvianistiqlalhanafi/merchant-service#readme",
+  "dependencies": {
+    "express": "^4.18.2",
+    "mysql2": "^3.2.0",
+    "nodemon": "^2.0.22"
+  }
+}
