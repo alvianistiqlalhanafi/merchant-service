@@ -4,7 +4,7 @@ USE merchant_service;
 
 CREATE TABLE Merchant
 (
-    Merchant_ID CHAR(16)    NOT NULL PRIMARY KEY,
+    Merchant_ID INT(5)    NOT NULL PRIMARY KEY,
     Password    VARCHAR(16) NOT NULL,
     Name        VARCHAR(50) NOT NULL,
     Address     VARCHAR(50) NOT NULL,

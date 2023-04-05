@@ -9,6 +9,6 @@ app.use('/products', productList);
 
 
 // server port
-app.listen(4000, () => {
+app.listen(3000, () => {
     console.log('Server up and running in port 3000...')
 })
